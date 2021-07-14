@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <meta name="description" content="Cannot decide what to eat or want to make your meal a little interesting? Enter options for what you want to eat and get a randomly generated meal for you."/>
+        <title>What to eat?</title>
+        <link rel="stylesheet" href="css/css_main.css"/>
+    </head>
+    <body>
+        <!-- One -->
+        <section id ="one">
+            <div id="block">
+                <h1>What To Eat?</h1>
+                <p>Cannot decide what to eat or want to make your meal a little interesting? <br />
+                    Enter options for what you want to eat and get a randomly generated meal for you.
+                </p>
+            </div>
+        </section>
+
+        <!-- Two -->
+        <section id="two">
+            <div class="container">
+                <h2>How to use:-</h2>
+                <ol>
+                    <li>Enter an option of foof you would like to eat.</li>
+                    <li>Click the Add Meal button to add the option.</li>
+                    <li>Repeat the above two steps until you enter all your options.</li>
+                    <li>Click the Choose Meal to get a random pick from your options.</li>
+                </ol>
+            </div>
+        </section>
+
+        <!-- Three -->
+        <section id="three">
+            <div class="container">
+                <form>
+                    <input type="text" id="meal-option" name="meal-option" placeholder="Enter your options.."/>
+                    <input type="button" id="add-meal-button" name="add-meal-button" value="Add Meal" onclick="addMeal()"/>
+                    <input type="button" id="choose-meal-button" onclick="chooseMeal()" name="choose-meal-button" value="Choose Meal"/>
+                    <label id="options-entered">Your options:</label>
+                    <label id="your-meal">Your meal:</label>
+                    <label id="error"></label>
+                    <input type="reset" id="reset-button" name="reset-button" value="Reset" onclick="resetFunc()"/>
+                </form>
+                <p class="fun-tip">Fun tip: Challenge your friends to eat a meal chosen from a pool of options entered by you.<br/>
+                    You can be as creative with the options as you want :)
+                </p>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section id="footer">
+            <div class="container">
+                <p>&copy; build and designed by <a href="https://github.com/purnimakumarr">Purnima Kumar</a> &hearts;</p>
+            </div>
+        </section>
+        <script src="js/main.js"></script>
+    </body>
+</html>
