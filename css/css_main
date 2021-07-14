@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
+@font-face {
+    font-family: 'Southampton';
+    src: url('fonts/SouthamptonRegular.woff');
+    font-weight: normal;
+    font-style: normal;
+    display: swap;
+}
+html{
+    background-color: ghostwhite;
+    padding: 0;
+}
+
+#one{
+    background-image: url(https://gorgeoussmiledental.com/wp-content/uploads/2017/08/1491.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;  
+    padding-top: 10%;
+    padding-bottom: 10%; 
+    margin: 0;
+}
+
+#block{
+    background-color: #EFEECC;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 2%;
+    text-align: center;
+    color: #400403;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2{
+    margin: 2%;
+}
+
+#two{
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#choose-meal-button, #reset-button, #add-meal-button{
+    font-family: monospace;
+    background-color: #0AABBA ;
+    color: white;
+    border-color: #0AABBA;
+    padding: 0.5%;
+    margin-top: 2%;
+    margin-left: 40%;
+    margin-right: 40%;
+    cursor: pointer;
+}
+
+#footer{
+    font-family: 'Southampton';
+    text-align: right;
+    font-size: 30px;
+    size: 15px;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover{
+    border-bottom-color: transparent;
+			color: #FE0557  !important;
+}
+
+form{
+    display: grid;
+    padding: 2%;
+}
+
+#meal-option{
+    padding: 1%;
+}
+
+#options-entered{
+    margin: 2%;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#your-meal{
+    margin: 3%;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#error {
+    font-family: 'Courier New', Courier, monospace;
+    color: crimson;
+    text-align: center;
+    font-weight: bold;
+}
+
+.fun-tip{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: lightsalmon;
+    padding: 2%;
+}
