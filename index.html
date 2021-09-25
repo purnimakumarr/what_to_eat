@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta name="description" content=
+    "What to eat is a webpage which helps you decide
+    what you should eat for a meal. It lets you enter your food choices
+    and then picks a meal for you and suggests recipes and restraunts
+    near you." />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>What to Eat &mdash; Food Picker</title>
+
+    <!-- CSS FILES -->
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/queries.css" rel="stylesheet" />
+
+    <!-- Inter Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- SCRIPT -->
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <main>
+      <section class="hero-section">
+        <div class="hero-text-box container">
+          <h1 class="heading-primary">What To Eat (Food Picker)</h1>
+          <p class="hero-description">
+            What to eat is a webpage which helps you decide
+            what you should eat for a meal. It lets you enter your food choices
+            and then picks a meal for you and suggests recipes and restraunts
+            near you.
+          </p>
+          <a class="link" href="#picker">Choose meal &darr;</a>
+        </div>
+      </section>
+      <span class="img-text"> Image by Shayda Torabi/Unsplash </span>
+
+      <section class="section-how">
+        <div class="container margin-bottom-md">
+          <span class="subheading">How it works</span>
+          <h2 class="heading-secondary">Three easy steps</h2>
+        </div>
+
+        <div class="container steps grid grid--3-cols">
+          <div>
+            <span class="step-number">1</span>
+            <p class="step-description">
+              Enter meal choice and press Add meal button.
+            </p>
+          </div>
+
+          <div>
+            <span class="step-number">2</span>
+            <p class="step-description">
+              Repeat the process until all your choices are entered.
+            </p>
+          </div>
+
+          <div>
+            <span class="step-number">3</span>
+            <p class="step-description">
+              Press Select meal and the food picker fill choose a meal.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-food-picker" id="picker">
+        <div class="container margin-bottom-md">
+          <span class="subheading">Food Picker</span>
+          <h2 class="heading-secondary">Get Started</h2>
+        </div>
+
+        <div class="form-box container">
+          <form class="form margin-bottom-sm">
+                <input
+                  id="option"
+                  class="food-option"
+                  type="text"
+                  name="food-option"
+                  placeholder="Option"
+                />
+                <button class="btn--form" id="add-btn">Add</button>
+                <button class="btn--form" id="choose-btn">Choose meal</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="options-section">
+        <div class="options-box container">
+          <h2 class="heading-secondary options-heading">Your options</h2>
+          <ul class="options-list grid grid--1-cols">
+          </ul>
+          <button class="btn" id="reset-btn">Reset</button>
+        </div>
+      </section>
+
+      <section class="result-section">
+        <div class="result-box container">
+          <span class="result">&nbsp;</span>
+        </div>
+        <div class="container">
+          <table class="table">
+            <tbody>
+              <tr>
+                <td class="recipe">&nbsp;</td>
+                <td class="restraunt">&nbsp;</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <span>build & designed by <a target="_blank" href="https://github.com/purnimakumarr">Purnima Kumar </a><span>&hearts;</span></span>
+      </footer>
+  </body>
+</html>
