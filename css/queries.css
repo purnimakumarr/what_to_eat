@@ -1,0 +1,92 @@
+/*******************/
+/* BELOW 944PX */
+/******************/
+@media (max-width: 59em) {
+  .container {
+    padding: 0 4.8rem;
+  }
+
+  .step-description {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  .option-label {
+    font-size: 1.8rem;
+  }
+
+  .form {
+    grid-template-columns: 1fr;
+    row-gap: 1.2rem;
+    padding: 2.4rem;
+  }
+}
+
+/*******************/
+/* BELOW 720PX */
+/******************/
+@media (max-width: 45em) {
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .heading-secondary {
+    font-size: 3rem;
+  }
+
+  .grid--3-cols {
+    grid-template-columns: 1fr;
+    row-gap: 2.4rem;
+  }
+
+  .btn--add {
+    bottom: 5%;
+  }
+}
+
+/*******************/
+/* BELOW 544PX */
+/******************/
+@media (max-width: 34em) {
+  .heading-primary {
+    font-size: 3rem;
+  }
+
+  .hero-text-box {
+    font-size: 1.8rem;
+  }
+
+  .food-option {
+    width: 100%;
+  }
+
+  .btn--add {
+    position: relative;
+  }
+
+  .step-number {
+    margin-bottom: 1.8rem;
+  }
+}
+
+/*******************/
+/* BELOW 320PX */
+/******************/
+@media (max-width: 20em) {
+  .container {
+    padding: 0 2.8rem;
+  }
+
+  .heading-primary {
+    font-size: 2.6rem;
+  }
+
+  .hero-text-box {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+
+  .footer span {
+    font-size: 1.4rem;
+  }
+}
